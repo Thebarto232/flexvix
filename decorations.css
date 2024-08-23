@@ -1,35 +1,25 @@
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
 .nav {
-
   display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  background-image: url('imgpagina/WhatsApp Image 2024-08-15 at 8.46.29 PM.jpeg');
-  background-size: cover; 
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("imgpagina/WhatsApp Image 2024-08-15 at 8.46.29 PM.jpeg");
+  background-size: cover;
 }
-
 
 .nav__cuerpo {
   display: flex;
-  align-items: center; 
-  
+  align-items: center;
 }
 
-
 .nav__logo {
-  background-image: url('imgpagina/WhatsApp Image 2024-08-15 at 11.20.45 PM.jpeg');
-  background-size: contain; 
-  background-repeat: no-repeat; 
-  background-position: left center; 
-  width: 200px; 
-  height: 100px; 
+  margin: left 62px;
+  height: 50px;
 }
 
 .nav__links {
@@ -45,9 +35,8 @@
 }
 
 .nav__link:hover {
-  color: #007bff; 
+  color: #007bff;
 }
-
 
 .nav__icono {
   cursor: pointer;
